@@ -1,0 +1,15 @@
+1. shortcut key change language in Ubuntu (Window + Space)
+2. Create file in Ubuntu (touch + namefile.tail)
+
+3. Trong JS co 3 loai module:
+- Module tu build
+- Module so san trong NodeJS
+- Module phai down ve cac pakage moi su dung duoc.
+
+-Khi minh require 1 module thi nodejs se tim trong folder cua minh truoc
+--> xem co module do hay khong.
+--> neu khong co thi no moi tim trong folder node_modules
+
+- hideEchoBack: true, --> dung de an nhung gi user nhap vao thanh dau *
+
+

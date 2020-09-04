@@ -1,0 +1,23 @@
+{
+  "name": "LearnJavascript",
+  "version": "1.0.0",
+  "description": "Learn JS of Coder.Tokyo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoangNguyen58TH1/LearnJavascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoangNguyen58TH1/LearnJavascript/issues"
+  },
+  "homepage": "https://github.com/HoangNguyen58TH1/LearnJavascript#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
