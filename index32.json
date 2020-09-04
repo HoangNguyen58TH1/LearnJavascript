@@ -1,0 +1,8 @@
+{
+    "student": [
+        {"name":"Hoang","age":22,"gender":"male"},
+        {"name":"Tien","age":23,"gender":"male"},
+        {"name":"Huynh","age":24,"gender":"male"},
+        {"name":"thoa","age":24,"gender":"female"}
+    ]
+}

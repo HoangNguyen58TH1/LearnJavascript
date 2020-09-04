@@ -12,4 +12,11 @@
 
 - hideEchoBack: true, --> dung de an nhung gi user nhap vao thanh dau *
 
+------------------------------------------------------------
+Task32:
+JSON object
+1. stringify - Convert an object to a JSON string.
+2. parse - Convert a JSON string to an Obejct.
+
+
 
