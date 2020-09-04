@@ -1,38 +1,40 @@
 const fs = require('fs');
-var reallineSync = require('readline-sync');
+const reallineSync = require('readline-sync');
 
-var readFileJson = fs.readFileSync('index32.json', {
-    encoding: 'utf-8'
-})
-var parseStudent = JSON.parse(readFileJson);
-var arrayStudent = parseStudent.student;
-// console.log(arrayStudent);
+var readFile = fs.readFileSync('index32.json', 'utf-8');
+// console.log(readFile);
+var parseJSON = JSON.parse(readFile);
+var arrayStudents = parseJSON.students;
+// console.log(arrayStudents);
 
-// 3 cau hoi
-console.log('1. List Students');
-console.log('2. Add Student');
-console.log('3. Save and Exits');
+console.log('1. Show all students');
+console.log('2. Add a student new');
+console.log('3. Save and exits');
 
 while (option != 3) {
     var option = reallineSync.question('Your option is: ');
 
     switch (Number(option)) {
         case 1:
-            console.log(arrayStudent);
+            console.log(arrayStudents);
             break;
         case 2:
-            var student = {};
-            var name = reallineSync.question('name: ');
-            var age = reallineSync.question('age: ');
-            var gender = reallineSync.question('gender: ');
+            // console.log('2');
+            var student = {}
+            var name = reallineSync.question('Name:');
+            var age = reallineSync.question('Age:');
+            var gender = reallineSync.question('Gender:');
+
             student.name = name;
             student.age = Number(age);
             student.gender = gender;
-
-            arrayStudent.push(student);
-            console.log(arrayStudent);
+            console.log(student);
+            arrayStudents.push(student);
             break;
         case 3:
+            console.log('Save and Exits...!');
             break;
+        default:
+            console.log('Please enter option is 1 or 2 or 3 ...! ');
     }
 }
