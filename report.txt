@@ -37,3 +37,25 @@ Taks36: Switch Case
 - diamond: kim cuong
 
 - tier: tang, rank
+
+------------------------------------------------------------
+06/09/2020
+Taks33: Student Manager App
+
+- npm install nameModule --save
+
+- 1 chuc nang gi do = 1 function
+- save file o buoc 3
+- tao object truoc khi save --> khi save file chi can stringify laji object do thoi
+
+files CSV:
+    [
+    name, classRoom, gender
+    Hoang, 58th1, male
+    Tien, 58th2, male
+    Thoa, 58th1, female
+    ]
+
+--
+document format dc files josn luon ne... ahihi
+

@@ -1,0 +1,24 @@
+{
+    "students": [
+        {
+            "name": "Hoang",
+            "classRoom": "58TH1",
+            "gender": "male"
+        },
+        {
+            "name": "Tien",
+            "classRoom": "58TH2",
+            "gender": "male"
+        },
+        {
+            "name": "Huynh",
+            "classRoom": "58TH2",
+            "gender": "male"
+        },
+        {
+            "name": "Thoa",
+            "classRoom": "58TH1",
+            "gender": "female"
+        }
+    ]
+}
