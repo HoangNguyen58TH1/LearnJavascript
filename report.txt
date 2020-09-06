@@ -58,4 +58,19 @@ files CSV:
 
 --
 document format dc files josn luon ne... ahihi
+---------------------------------------------------
+Task 39 - Sync & Async
+Sync : đồng bộ
+Async: bất đồng bộ
+
+VD:
+readFileSync - đọc file động bộ từ trên xuống
+readFile - đọc file bất đồng bộ
+
+callback : là 1 function được gọi trong param.
+
+- Ngta thường using async nhiều hơn sync bởi vì async chạy bất đồng bộ
+    --> giúp tiết kiệm time hơn.
+    --> những thằng sau k phải chờ nó run xong mới run.
+
 
