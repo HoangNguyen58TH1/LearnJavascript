@@ -18,5 +18,22 @@ JSON object
 1. stringify - Convert an object to a JSON string.
 2. parse - Convert a JSON string to an Obejct.
 
+------------------------------------------------------------
+05/09/2020
+Taks33: Ternary operator
+- toss: tung
+- coin: dong` xu
+- statement: bieu thuc
+- ternary operator: toan tu bac 3
 
+- initial : ban dau
+- otherwise: neu khong thi
+- "use strict": su dung nghiem ngat
 
+Taks36: Switch Case
+- bronze: dong
+- silver: bac
+- gold: vang
+- diamond: kim cuong
+
+- tier: tang, rank
