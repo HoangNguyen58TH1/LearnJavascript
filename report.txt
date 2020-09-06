@@ -73,4 +73,19 @@ callback : là 1 function được gọi trong param.
     --> giúp tiết kiệm time hơn.
     --> những thằng sau k phải chờ nó run xong mới run.
 
+-------------------------------------
+Task 40: Callback Hell : Dia nguc goi lai.
+Callback hell: giong nhu 1 kim tu thap vay do'
+>
+ >
+  >
+   > --> nhu vay ne.
+  >
+ >
+>
+--> callback hell hoi xua ngta hay dung --> nhung gio it ng dung vi kho' nhin`.
 
+--> De handling callback hell --> ngta using "Promise".
+
+-------------------------------------
+Task 41: Promise - Loi hua'
