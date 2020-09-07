@@ -89,3 +89,27 @@ Callback hell: giong nhu 1 kim tu thap vay do'
 
 -------------------------------------
 Task 41: Promise - Loi hua'
+
+- readFile || readFileSync --> default encoding: null
+- writeFile || writeFileSync --> default encoding: utf8
+
+.then.catch --> Promise
+
+- Promise la 1 constructor function
+VD: var promise = new Promise
+
+- return fs.readFile(path, 'utf8') --> tra ve 1 cai Promise
+
+- 1 Promise co 3 trang thai:
++ Pending (đang xử lý)
++ Fulfilled (đã hoàn thành)
++ Rejected (đã bị từ chối)
+
+- then: sau do
+- catch: bat' lay'
+
+- Promise duoc tao ra chinh la: .then vs .catch
+
+- Dung Promise tu tao
+--> tao function --> tra ve 'return new Promise' --> call reslove vs reject  
+--> using:  .then vs .catch
