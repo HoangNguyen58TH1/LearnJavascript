@@ -113,3 +113,7 @@ VD: var promise = new Promise
 - Dung Promise tu tao
 --> tao function --> tra ve 'return new Promise' --> call reslove vs reject  
 --> using:  .then vs .catch
+
+-------------------------------------
+Task 42: Promise.all
+- iterable: có thể lặp lại

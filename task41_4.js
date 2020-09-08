@@ -12,10 +12,19 @@ function readFilePromise(path) {
     });
 }
 
-readFilePromise('song1.txt')
-    .then(function(song){
+readFilePromise('song11.txt')
+    .then((song) => {
         console.log(song);
     })
-    .catch(function(error){
+    // .catch((error) => {
+    //     console.log(error);
+    // })
+    .then(function(){
+        return readFilePromise('song2.txt')
+    })
+    .then((song) => {
+        console.log(song);
+    })
+    .catch((error) => {
         console.log(error);
     });
