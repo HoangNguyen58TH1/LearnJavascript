@@ -33,13 +33,13 @@ function readFilePromise(path) {
 
 // var run = async function(){
 var run = async function(files){
-    // let values =  [
-    //     await readFilePromise('song1.txt'),
-    //     await readFilePromise('song2.txt')
-    // ];
-    var values = await files.map(function(file){
-        return readFilePromise(file);
-    })
+    let values =  [
+        await readFilePromise('song1.txt'),
+        await readFilePromise('song2.txt')
+    ];
+    // var values = await files.map(function(file){
+    //     return readFilePromise(file);
+    // })
     return values;
 
     // let song1 = await readFilePromise('song1.txt');

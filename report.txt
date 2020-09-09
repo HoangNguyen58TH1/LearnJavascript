@@ -129,7 +129,7 @@ Task 43:
 + files: là 1 array gồm những path đến file.
 
 
--------------------------------------
+-------------------------------------   
 Task 44:  asynv await
 Promise --> node co --> async await
 
