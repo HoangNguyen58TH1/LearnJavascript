@@ -50,9 +50,9 @@ readFiles(['song1.txt', 'song2.txt', 'song3.txt'])
 }).catch((err) => {
     console.log(err);
 });
-readFiles(['song1.txt', 'song2.txt'])
-    .then((arrSong) => {
-        console.log(arrSong);
-    }).catch((err) => {
-        console.log(err);
-    });
+// readFiles(['song1.txt', 'song2.txt'])
+//     .then((arrSong) => {
+//         console.log(arrSong);
+//     }).catch((err) => {
+//         console.log(err);
+//     });

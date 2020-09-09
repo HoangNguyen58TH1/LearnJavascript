@@ -129,3 +129,9 @@ Task 43:
 + files: là 1 array gồm những path đến file.
 
 
+-------------------------------------
+Task 44:  asynv await
+Promise --> node co --> async await
+
+- async await --> return 1 Promise
+- node co nó có syntax na ná với async await. co là 1 function, yield là keyword, async await là keyword.
