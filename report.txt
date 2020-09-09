@@ -135,3 +135,25 @@ Promise --> node co --> async await
 
 - async await --> return 1 Promise
 - node co nó có syntax na ná với async await. co là 1 function, yield là keyword, async await là keyword.
+
+-------------------------------------
+Task 44:  setTimeout
+setTimeout(fn, time)
+time = calculator miliseconds
+wait time done --> run function().
+- thực ra cái miliseconds này k chuẩn --> because ...
+
+---
+setTimeout(function(){ //anonymous function - hàm không tên.
+    console.log('2');
+}, 2000);
+console.log('3');
+- thực ra cái hàm k tên là bởi vì nó chỉ chạy ở đó thôi
+- nó k thể được gọi lại ở chổ khác.
+- còn hàm có tên thì nó có thể được gọi lại
+---
+- setTimeout --> return 1 cái id
+- clearTimeout(timeoutId);
+--> khi code chạy đến chổ clearTimeout ý --> mà hàm setTimeout chưa chạy hoặc chưa chạy xong thì nó sẽ bị hủy.
+
+
