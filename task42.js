@@ -31,10 +31,11 @@ function readFilePromise(path) {
 Promise.all([
     readFilePromise('song1.txt'),
     readFilePromise('song2.txt'),
-    readFilePromise('song3.txt')
+    readFilePromise('song33.txt')
 ]).then(function(values){
     console.log(values);
 })
 .catch(function(error){
     console.log(error);
+    console.log(error.stack);
 })

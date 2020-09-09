@@ -117,3 +117,15 @@ VD: var promise = new Promise
 -------------------------------------
 Task 42: Promise.all
 - iterable: có thể lặp lại
+
+-------------------------------------
+Task 43: 
+- declare: khai bao'
+- function*()  --> //generator function --> tao ham
+- yield: san pham, vat pham, trinh bay ra, dua ra, ...
+
+- co(function*(){...}) --> return Promise
+- var readFiles = co.wrap(function*(files)){...}) --> return fucntion
++ files: là 1 array gồm những path đến file.
+
+
