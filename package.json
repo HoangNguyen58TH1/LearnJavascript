@@ -19,6 +19,7 @@
   "homepage": "https://github.com/HoangNguyen58TH1/LearnJavascript#readme",
   "dependencies": {
     "co": "^4.6.0",
+    "moment": "^2.27.0",
     "promise-fs": "^2.1.1",
     "readline-sync": "^1.4.10"
   }

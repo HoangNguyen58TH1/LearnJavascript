@@ -137,7 +137,7 @@ Promise --> node co --> async await
 - node co nó có syntax na ná với async await. co là 1 function, yield là keyword, async await là keyword.
 
 -------------------------------------
-Task 44:  setTimeout
+Task 45:  setTimeout
 setTimeout(fn, time)
 time = calculator miliseconds
 wait time done --> run function().
@@ -156,4 +156,21 @@ console.log('3');
 - clearTimeout(timeoutId);
 --> khi code chạy đến chổ clearTimeout ý --> mà hàm setTimeout chưa chạy hoặc chưa chạy xong thì nó sẽ bị hủy.
 
+-------------------------------------
+Task 46:  setInterval
 
+-------------------------------------
+Task 47: Date Object
+new Date();
+new Date(value);
+new Date(dateString);
+new Date(year, month[, date[, hours[, minutes[, seconds[, milliseconds]]]]]);
+
+- thư viện moment.js nó có thêm nheief methods giúp làm những cái mà bên object Date() không có
+
+-------------------------------------
+Task 48: Scope (global vs local)
+- Trong lập trình trnahs thay đổi biến đầu vào (variable input)
+    --> Tránh những lồi logic khó hiểu mà k biết nó sai ở đâu.
+
+    
