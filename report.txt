@@ -173,4 +173,7 @@ Task 48: Scope (global vs local)
 - Trong lập trình trnahs thay đổi biến đầu vào (variable input)
     --> Tránh những lồi logic khó hiểu mà k biết nó sai ở đâu.
 
-    
+-------------------------------------
+Task 49: Database Design (Basic)
+- id: identifier - định danh
+- Qua JS Advanced.
